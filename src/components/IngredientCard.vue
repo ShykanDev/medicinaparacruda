@@ -3,9 +3,9 @@
       <img class="w-full rounded-t-lg" :src="imgSrc" alt="" />
       <div class="px-6 py-4">
         <!-- Title -->
-        <h2 class="text-xl font-bold text-cyan-900">{{ title }}</h2>
+        <h2 class="text-xl font-bold text-purple-900">{{ title }}</h2>
         <!-- Small Resume -->
-        <p class="text-base text-gray-700">
+        <p class="text-base text-purple-700">
           {{ smallIntro }}
         </p>
         <!-- Long Resume -->
@@ -15,9 +15,9 @@
         <li
           v-for="(item, index) in listTitles"
           :key="index"
-          class="text-base text-cyan-800"
+          class="text-base text-slate-800 font-poppins"
         >
-          <strong>{{ item }}:</strong> {{ listContent[index] }}
+          <strong class="text-purple-800">{{ item }}:</strong> {{ listContent[index] }}
         </li>
       </ul>
       <div class="flex items-center justify-center px-6 pt-4 pb-2 space-x-3">
@@ -25,7 +25,7 @@
         <span
           v-for="(tag, index) in tags"
           :key="index"
-          class="inline-block px-3 py-1 m-1 text-xs font-semibold text-teal-800 bg-teal-200 rounded-full"
+          class="inline-block px-3 py-1 m-1 text-xs font-semibold text-purple-800 bg-purple-200 rounded-full font-poppins"
         >
           {{ tag }}
         </span>

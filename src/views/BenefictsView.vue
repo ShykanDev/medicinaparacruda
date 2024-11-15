@@ -3,8 +3,8 @@
         <MainLayout>
             <template #main>
                     <!-- <h1 class="text-3xl font-extrabold text-center text-white md:py-7 bg-cyan-600 font-poppins">Conozca los BENEFICIOS que CIDNI le ofrece para la GASTRITIS</h1> -->
-                    <h1 class="py-8 text-4xl font-bold text-center rounded-lg shadow-lg text-cyan-900 bg-gradient-to-r from-cyan-100 via-white to-cyan-100 font-poppins">
-  Conozca los <span class="text-cyan-600">BENEFICIOS</span> que <span class="underline decoration-cyan-600">CIDNI</span> le ofrece para la <span class="text-cyan-600">GASTRITIS</span>
+                    <h1 class="py-8 text-4xl font-bold text-center text-white shadow-lg bg-gradient-to-r from-gray-800 via-purple-700 to-gray-800 font-poppins">
+  Conozca los <span class="text-emerald-300">BENEFICIOS</span> que <span class="underline decoration-emerald-300">CIDNI</span> le ofrece para la <span class="text-emerald-300">GASTRITIS</span>
 </h1>
 
                 <section class="flex flex-wrap justify-around w-full gap-4 p-3">
@@ -93,181 +93,178 @@ import BenefictCard from '@/components/BenefictCard.vue';
 import MainLayout from '@/layouts/MainLayout.vue';
 
 const benefit1 = {
-  title: "Alivio de la Inflamación de las Hemorroides",
-  smallIntro: "PILOGUARD ayuda a reducir la inflamación en la zona afectada por las hemorroides.",
-  description: "Uno de los principales beneficios de PILOGUARD es su capacidad para reducir la inflamación y el dolor asociado con las hemorroides. Su fórmula natural actúa suavemente sobre los tejidos inflamados, proporcionando alivio inmediato y ayudando a prevenir la inflamación recurrente. Los ingredientes como el Neem y la Cúrcuma trabajan sinérgicamente para calmar la irritación y mejorar la circulación sanguínea.",
-  tags: ["salud", "hemorroides", "antiinflamatorio"]
+  title: "Alivio de la Resaca",
+  smallIntro: "HANGOVER ayuda a reducir los efectos desagradables de la resaca.",
+  description: "Uno de los principales beneficios de HANGOVER es su capacidad para aliviar los síntomas de la resaca, como el dolor de cabeza, náuseas y cansancio. Gracias a su combinación de ingredientes naturales como el Amla y el Draksha, HANGOVER trabaja para restaurar el equilibrio en tu cuerpo, reduciendo la deshidratación y promoviendo la recuperación.",
+  tags: ["salud", "resaca", "recuperación"]
 };
 
 const benefit2 = {
-  title: "Alivio del Dolor y la Irritación",
-  smallIntro: "PILOGUARD ayuda a calmar el dolor y la irritación causados por las hemorroides.",
-  description: "La formulación de PILOGUARD está diseñada para proporcionar un alivio eficaz del dolor y la irritación de las hemorroides. Gracias a sus ingredientes naturales, como el Aloe vera y la Acacia catechu, este suplemento reduce el ardor, la picazón y la incomodidad, permitiendo que las personas puedan continuar con su vida diaria sin las molestias constantes.",
-  tags: ["salud", "hemorroides", "alivio del dolor"]
+  title: "Reducción de la Inflamación",
+  smallIntro: "HANGOVER ayuda a disminuir la inflamación causada por el consumo excesivo de alcohol.",
+  description: "El consumo de alcohol puede causar inflamación en diversas partes del cuerpo, y HANGOVER ayuda a reducir esta inflamación. Ingredientes como la Ashwagandha y el Gokhru contribuyen a calmar la irritación y reducir la hinchazón, lo que facilita la recuperación de los efectos de la resaca.",
+  tags: ["salud", "antiinflamatorio", "resaca"]
 };
 
 const benefit3 = {
-  title: "Mejora de la Circulación Sanguínea",
-  smallIntro: "PILOGUARD favorece la circulación sanguínea en la región anal, esencial para prevenir las hemorroides.",
-  description: "Los ingredientes naturales de PILOGUARD contribuyen a mejorar la circulación sanguínea en la zona afectada por las hemorroides. Esto no solo alivia los síntomas actuales, sino que también ayuda a prevenir futuros episodios al fortalecer los vasos sanguíneos y mejorar la elasticidad de los tejidos. Así, se reduce el riesgo de desarrollar hemorroides recurrentes.",
-  tags: ["salud", "circulación", "prevención"]
+  title: "Mejora de la Digestión",
+  smallIntro: "HANGOVER favorece una digestión más rápida después de la resaca.",
+  description: "La resaca puede afectar negativamente la digestión, y HANGOVER ayuda a mejorar el proceso digestivo. Gracias a ingredientes como el Kasni y el Bhrungraj, este suplemento optimiza la función digestiva, permitiendo que tu cuerpo recupere su ritmo normal y evitando molestias estomacales.",
+  tags: ["salud", "digestión", "resaca"]
 };
 
 const benefit4 = {
-  title: "Prevención de Futuras Crisis de Hemorroides",
-  smallIntro: "PILOGUARD ayuda a prevenir futuros episodios de hemorroides al mantener la salud digestiva y vascular.",
-  description: "Con su enfoque integral, PILOGUARD no solo alivia los síntomas de las hemorroides, sino que también ayuda a prevenir futuros brotes. Gracias a sus propiedades digestivas y circulatorias, este suplemento mejora la salud intestinal y vascular, evitando factores como el estreñimiento y la mala circulación que pueden desencadenar hemorroides.",
-  tags: ["prevención", "salud", "digestión"]
+  title: "Aumento de la Energía",
+  smallIntro: "HANGOVER te ayuda a recuperar la energía perdida después de la cruda.",
+  description: "Uno de los efectos más comunes de la resaca es la fatiga, y HANGOVER ayuda a revitalizar tu cuerpo. Su fórmula natural con ingredientes como el Galo y el Punarnava proporciona un impulso de energía, permitiéndote sentirte más alerta y con mayor vitalidad durante el día.",
+  tags: ["energía", "resaca", "recuperación"]
 };
 
 const benefit5 = {
-  title: "Fortalecimiento del Sistema Digestivo",
-  smallIntro: "PILOGUARD promueve un sistema digestivo saludable, lo cual es clave para evitar las hemorroides.",
-  description: "Uno de los beneficios principales de PILOGUARD es su capacidad para fortalecer el sistema digestivo. Al mejorar la digestión y prevenir el estreñimiento, ayuda a evitar la presión excesiva sobre los vasos sanguíneos en la zona anal. Esto reduce las probabilidades de que se desarrollen hemorroides, promoviendo una digestión más eficiente y un tránsito intestinal regular.",
-  tags: ["salud", "digestión", "prevención"]
+  title: "Hidratación Rápida",
+  smallIntro: "HANGOVER contribuye a restablecer los niveles de hidratación después de una noche de excesos.",
+  description: "La deshidratación es una de las principales causas de la resaca, y HANGOVER ayuda a restablecer los niveles de líquidos en el cuerpo. Sus ingredientes como el Draksha y el Bhumiamalki ayudan a rehidratarte, aliviando la sequedad y mejorando tu bienestar general.",
+  tags: ["hidratación", "resaca", "recuperación"]
 };
 
 const benefit6 = {
-  title: "Cuidado Natural para las Hemorroides",
-  smallIntro: "PILOGUARD está compuesto por ingredientes naturales que brindan un cuidado efectivo para las hemorroides.",
-  description: "PILOGUARD es una alternativa natural y segura para el tratamiento de las hemorroides. Utiliza extractos de plantas ayurvédicas como el Neem y la Cúrcuma, conocidos por sus propiedades antiinflamatorias y antioxidantes. Estos ingredientes ayudan a reducir la inflamación, fortalecer las paredes de los vasos sanguíneos y promover la regeneración de los tejidos afectados.",
-  tags: ["natural", "salud", "antiinflamatorio"]
+  title: "Desintoxicación Natural",
+  smallIntro: "HANGOVER apoya la desintoxicación del cuerpo después del alcohol.",
+  description: "HANGOVER actúa como un desintoxicante natural, ayudando a eliminar las toxinas acumuladas por el consumo de alcohol. Ingredientes como el Gokhru y el Amla facilitan la eliminación de impurezas y promueven un proceso de limpieza interno, ayudando a que tu cuerpo se recupere de forma efectiva.",
+  tags: ["salud", "desintoxicación", "resaca"]
 };
 
 const benefit7 = {
-  title: "Mejora la Salud del Colon",
-  smallIntro: "PILOGUARD apoya la salud del colon, lo cual es crucial para evitar las hemorroides.",
-  description: "Los ingredientes de PILOGUARD favorecen el funcionamiento saludable del colon, aliviando el estreñimiento y reduciendo la presión sobre las venas rectales. Esto es crucial para prevenir la aparición de hemorroides y mantener un sistema digestivo óptimo. Un colon saludable facilita el proceso digestivo y reduce la inflamación en la zona anal.",
-  tags: ["salud", "colon", "prevención"]
+  title: "Restauración del Equilibrio de Nutrientes",
+  smallIntro: "HANGOVER ayuda a restaurar los niveles de nutrientes esenciales después de la cruda.",
+  description: "El alcohol puede agotar los niveles de nutrientes en el cuerpo, y HANGOVER ayuda a restaurarlos. Su fórmula incluye ingredientes como el Ashwagandha y el Kasni, que trabajan para reponer vitaminas y minerales esenciales, ayudando a que te sientas mejor rápidamente.",
+  tags: ["nutrición", "resaca", "recuperación"]
 };
 
 const benefit8 = {
-  title: "Reducción del Estreñimiento",
-  smallIntro: "PILOGUARD ayuda a reducir el estreñimiento, un factor clave en el desarrollo de las hemorroides.",
-  description: "PILOGUARD facilita el tránsito intestinal, reduciendo el estreñimiento y el esfuerzo durante las evacuaciones. Esto disminuye la presión en la región anal y previene la aparición de hemorroides. Su fórmula natural actúa sobre el sistema digestivo para promover una digestión regular y cómoda.",
-  tags: ["digestión", "estreñimiento", "salud"]
+  title: "Soporte al Sistema Inmunológico",
+  smallIntro: "HANGOVER fortalece el sistema inmunológico, ayudando a prevenir infecciones durante la resaca.",
+  description: "El alcohol puede debilitar temporalmente el sistema inmunológico, y HANGOVER actúa para fortalecerlo. Con ingredientes como el Bhrungraj y el Punarnava, este suplemento contribuye a mantener tu sistema inmunológico fuerte, ayudando a prevenir infecciones y otros malestares comunes durante la resaca.",
+  tags: ["inmunidad", "resaca", "salud"]
 };
 
 const benefit9 = {
-  title: "Soporte para la Regeneración de Tejidos",
-  smallIntro: "PILOGUARD favorece la regeneración de los tejidos dañados por las hemorroides.",
-  description: "PILOGUARD contribuye a la reparación de los tejidos dañados por las hemorroides. Su combinación de ingredientes ayurvédicos acelera la cicatrización de las zonas inflamadas, reduciendo las molestias y promoviendo una recuperación más rápida. Esto es especialmente beneficioso para quienes sufren de hemorroides crónicas o recurrentes.",
-  tags: ["salud", "cicatrización", "recuperación"]
+  title: "Mejora de la Función Hepática",
+  smallIntro: "HANGOVER apoya la función hepática, crucial para la metabolización del alcohol.",
+  description: "El hígado juega un papel clave en la metabolización del alcohol, y HANGOVER ayuda a optimizar esta función. Ingredientes como el Kasni y el Galo son conocidos por su capacidad para mejorar la función hepática, lo que facilita la descomposición de las toxinas del alcohol y acelera la recuperación.",
+  tags: ["hígado", "resaca", "desintoxicación"]
 };
 
 const benefit10 = {
-  title: "Mejora del Bienestar General",
-  smallIntro: "PILOGUARD mejora el bienestar general al tratar las hemorroides y promover una digestión saludable.",
-  description: "Además de aliviar los síntomas de las hemorroides, PILOGUARD contribuye a mejorar el bienestar general. Su acción sobre el sistema digestivo y circulatorio ayuda a reducir el malestar general y fomenta una sensación de alivio duradero. Esto mejora la calidad de vida de quienes padecen de hemorroides, permitiéndoles disfrutar de un día a día más cómodo y sin dolor.",
-  tags: ["bienestar", "salud", "digestión"]
+  title: "Alivio del Dolor de Cabeza",
+  smallIntro: "HANGOVER ayuda a aliviar los dolores de cabeza causados por la resaca.",
+  description: "El dolor de cabeza es uno de los síntomas más molestos de la resaca, y HANGOVER ayuda a reducirlo de forma natural. Gracias a su combinación de ingredientes como el Ashwagandha y el Draksha, este suplemento actúa aliviando el dolor y promoviendo una sensación de bienestar general.",
+  tags: ["dolor de cabeza", "resaca", "alivio"]
 };
 
 const benefit11 = {
-  title: "Reducción de la Sensación de Ardor",
-  smallIntro: "PILOGUARD ayuda a aliviar la sensación de ardor comúnmente experimentada por quienes sufren de hemorroides.",
-  description: "La sensación de ardor es uno de los síntomas más molestos de las hemorroides. PILOGUARD actúa sobre la piel irritada y los tejidos afectados, calmando el ardor y la incomodidad. Sus ingredientes como la Manzanilla y el Aloe vera tienen propiedades calmantes que proporcionan un alivio inmediato, ayudando a las personas a sentirse más cómodas en su día a día.",
-  tags: ["salud", "ardor", "alivio"]
+  title: "Alivio de la Náusea",
+  smallIntro: "HANGOVER ayuda a reducir las náuseas causadas por la cruda.",
+  description: "Las náuseas son comunes después de una noche de excesos, y HANGOVER actúa para reducirlas. Ingredientes como el Amla y el Gokhru trabajan para calmar el estómago y reducir la sensación de mareo, permitiéndote sentirte mejor rápidamente.",
+  tags: ["náuseas", "resaca", "alivio"]
 };
 
 const benefit12 = {
-  title: "Fortalece las Paredes Venosas",
-  smallIntro: "PILOGUARD fortalece las paredes venosas de la zona anal para prevenir complicaciones de las hemorroides.",
-  description: "Las hemorroides a menudo se desarrollan debido a la debilidad de las paredes venosas en el área anal. PILOGUARD, gracias a sus componentes como el Castaño de Indias, ayuda a fortalecer estas venas, mejorando la circulación y reduciendo la probabilidad de inflamaciones futuras. Esto permite una mejor salud vascular y la prevención de complicaciones asociadas a las hemorroides.",
-  tags: ["salud", "circulación", "vascular"]
+  title: "Reducción de la Ansiedad",
+  smallIntro: "HANGOVER ayuda a reducir la ansiedad y el malestar emocional durante la resaca.",
+  description: "El consumo excesivo de alcohol puede generar ansiedad y malestar emocional, y HANGOVER ayuda a aliviar estos síntomas. Su fórmula con Ashwagandha y Punarnava tiene propiedades relajantes que ayudan a calmar la mente, favoreciendo una recuperación más tranquila.",
+  tags: ["ansiedad", "resaca", "relajación"]
 };
 
 const benefit13 = {
-  title: "Alivio de la Pesadez y Fatiga",
-  smallIntro: "PILOGUARD alivia la pesadez y la fatiga derivada de las hemorroides.",
-  description: "Las hemorroides pueden causar una sensación de pesadez y cansancio debido a la inflamación y la irritación en la zona anal. PILOGUARD combate estos síntomas al mejorar la circulación sanguínea, reducir la inflamación y promover una digestión regular. Esto alivia la sensación de fatiga, ayudando a las personas a sentirse más ligeras y energizadas.",
-  tags: ["salud", "bienestar", "fatiga"]
+  title: "Fortalecimiento de los Vasos Sanguíneos",
+  smallIntro: "HANGOVER contribuye a fortalecer los vasos sanguíneos, reduciendo el riesgo de complicaciones.",
+  description: "El alcohol puede afectar la salud de los vasos sanguíneos, y HANGOVER ayuda a fortalecerlos. Ingredientes como el Galo y el Bhrungraj favorecen la circulación sanguínea y ayudan a mantener los vasos sanguíneos saludables, lo que puede prevenir complicaciones posteriores a la resaca.",
+  tags: ["circulación", "resaca", "salud"]
 };
 
 const benefit14 = {
-  title: "Acción Antioxidante para la Zona Anal",
-  smallIntro: "PILOGUARD actúa como un antioxidante que ayuda a proteger la zona anal de posibles daños.",
-  description: "Los antioxidantes en PILOGUARD, como la Vitamina C y la Curcumina, ayudan a reducir el daño celular y a proteger la piel en la zona anal. Esto es esencial para prevenir infecciones o complicaciones que pueden surgir debido a la irritación constante de las hemorroides. Con un enfoque natural, PILOGUARD protege y regenera los tejidos afectados.",
-  tags: ["salud", "antioxidantes", "protección"]
+  title: "Recuperación Rápida",
+  smallIntro: "HANGOVER acelera tu recuperación después de la cruda.",
+  description: "Gracias a su potente fórmula natural, HANGOVER ayuda a acelerar el proceso de recuperación después de la resaca. Con ingredientes como el Gokhru y el Draksha, este suplemento reduce el tiempo necesario para sentirte bien nuevamente, ayudando a que te sientas renovado más rápido.",
+  tags: ["recuperación", "resaca", "energía"]
 };
 
 const benefit15 = {
-  title: "Reducción de la Sensibilidad en la Zona Anal",
-  smallIntro: "PILOGUARD ayuda a reducir la sensibilidad en la zona anal, lo que alivia el malestar causado por las hemorroides.",
-  description: "Las hemorroides pueden hacer que la zona anal se vuelva extremadamente sensible. PILOGUARD, con ingredientes como el Aloe vera y el Aceite de Oliva, ayuda a reducir esta sensibilidad, proporcionando un alivio duradero. Su acción calmante permite que las personas puedan sentarse y moverse con mayor comodidad.",
-  tags: ["salud", "sensibilidad", "alivio"]
+  title: "Soporte General del Bienestar",
+  smallIntro: "HANGOVER contribuye al bienestar general durante la recuperación de la resaca.",
+  description: "Más allá de aliviar los síntomas específicos de la resaca, HANGOVER apoya tu bienestar general. Su mezcla de ingredientes como el Amla, el Ashwagandha y el Punarnava favorece una recuperación integral, ayudando a restaurar tu energía, reducir el estrés y mejorar tu salud general.",
+  tags: ["bienestar", "resaca", "recuperación"]
 };
-
 const benefit16 = {
-  title: "Facilita la Eliminación de Toxinas",
-  smallIntro: "PILOGUARD favorece la eliminación de toxinas del cuerpo, ayudando a prevenir las hemorroides.",
-  description: "El cuerpo acumula toxinas que pueden afectar la circulación y la salud intestinal, favoreciendo la aparición de hemorroides. PILOGUARD, a través de su acción depurativa, promueve la eliminación de toxinas, lo que mejora el funcionamiento general del sistema digestivo y circulatorio. Esto contribuye a prevenir futuros episodios de hemorroides al mantener el cuerpo más saludable y equilibrado.",
-  tags: ["detox", "salud", "prevención"]
+  title: "Alivio de la Fatiga Muscular",
+  smallIntro: "HANGOVER ayuda a reducir la fatiga muscular causada por la deshidratación y el exceso de alcohol.",
+  description: "El consumo excesivo de alcohol puede llevar a una mayor sensación de fatiga muscular. HANGOVER incluye ingredientes como la Ashwagandha y el Gokhru, que ayudan a reducir esta fatiga, promoviendo una recuperación más rápida de los músculos y ayudando a restaurar tu energía.",
+  tags: ["fatiga muscular", "resaca", "recuperación"]
 };
 
 const benefit17 = {
-  title: "Mejora la Elasticidad de los Tejidos",
-  smallIntro: "PILOGUARD mejora la elasticidad de los tejidos de la zona anal, previniendo desgarros o daños.",
-  description: "La elasticidad de los tejidos en la zona anal es fundamental para prevenir complicaciones derivadas de las hemorroides. PILOGUARD mejora esta elasticidad, permitiendo que los vasos sanguíneos se adapten mejor a los cambios de presión y reduciendo el riesgo de desgarros. Esto también contribuye a una cicatrización más rápida y eficiente en los casos de hemorroides agudas.",
-  tags: ["salud", "elasticidad", "recuperación"]
+  title: "Mejora de la Función Renal",
+  smallIntro: "HANGOVER ayuda a mejorar la función renal, esencial para eliminar toxinas.",
+  description: "El consumo de alcohol puede afectar la función renal, y HANGOVER apoya la salud de los riñones para eliminar toxinas del cuerpo. Ingredientes como el Galo y el Kasni promueven una función renal más eficiente, facilitando la desintoxicación del cuerpo después de la resaca.",
+  tags: ["función renal", "desintoxicación", "resaca"]
 };
 
 const benefit18 = {
-  title: "Ayuda en la Recuperación Postquirúrgica",
-  smallIntro: "PILOGUARD apoya la recuperación después de una cirugía de hemorroides.",
-  description: "Las personas que se han sometido a una cirugía para tratar las hemorroides pueden experimentar dolor e incomodidad en el proceso de recuperación. PILOGUARD ayuda a acelerar la cicatrización de los tejidos, reduce la inflamación postquirúrgica y alivia el dolor, favoreciendo una recuperación más rápida y menos dolorosa. Esto permite que los pacientes se sientan más cómodos durante su proceso de sanación.",
-  tags: ["recuperación", "salud", "postquirúrgico"]
+  title: "Regulación del Sueño",
+  smallIntro: "HANGOVER ayuda a regular el sueño después de la cruda, favoreciendo un descanso reparador.",
+  description: "Las resacas a menudo interfieren con el sueño, y HANGOVER apoya la regulación del ciclo de sueño. Ingredientes como el Punarnava y el Bhrungraj tienen propiedades relajantes que favorecen un descanso reparador, ayudando a reducir los efectos de la cruda en la calidad del sueño.",
+  tags: ["sueño", "resaca", "descanso"]
 };
 
 const benefit19 = {
-  title: "Regula la Frecuencia de las Evacuaciones",
-  smallIntro: "PILOGUARD ayuda a regular las evacuaciones intestinales, evitando la constipación que puede desencadenar hemorroides.",
-  description: "Uno de los factores principales en el desarrollo de las hemorroides es el estreñimiento, que genera presión excesiva durante las evacuaciones. PILOGUARD mejora la regularidad del tránsito intestinal, ayudando a evitar episodios de constipación y a promover evacuaciones más suaves. Esto reduce la presión en la zona anal y previene la aparición de hemorroides.",
-  tags: ["digestión", "salud", "regulación"]
+  title: "Mejora del Estado de Ánimo",
+  smallIntro: "HANGOVER contribuye a mejorar el estado de ánimo durante la recuperación de la resaca.",
+  description: "El alcohol puede afectar negativamente el estado emocional, y HANGOVER ayuda a mejorar el ánimo al reducir la ansiedad y el estrés. Ingredientes como la Ashwagandha y el Gokhru contribuyen a un estado mental más equilibrado, ayudando a que te sientas más positivo durante el proceso de recuperación.",
+  tags: ["estado de ánimo", "resaca", "bienestar emocional"]
 };
 
 const benefit20 = {
-  title: "Promueve un Estilo de Vida Saludable",
-  smallIntro: "PILOGUARD fomenta un estilo de vida saludable, aliviando y previniendo las hemorroides de manera natural.",
-  description: "Más allá de aliviar los síntomas de las hemorroides, PILOGUARD contribuye a un estilo de vida saludable al mejorar la circulación, la digestión y la salud intestinal. Al incorporar PILOGUARD en tu rutina diaria, puedes reducir el riesgo de sufrir de hemorroides y mejorar tu bienestar general, promoviendo un cuerpo más equilibrado y saludable.",
-  tags: ["salud", "bienestar", "prevención"]
+  title: "Refuerzo del Metabolismo",
+  smallIntro: "HANGOVER ayuda a acelerar el metabolismo durante la recuperación de la cruda.",
+  description: "El metabolismo puede verse afectado después de una noche de excesos, y HANGOVER ayuda a estimularlo. Ingredientes como el Kasni y el Bhrungraj favorecen un metabolismo más rápido y eficiente, ayudando a tu cuerpo a recuperarse más rápido de los efectos de la resaca.",
+  tags: ["metabolismo", "recuperación", "resaca"]
 };
 
-
 const benefit21 = {
-  title: "Alivio de la Inflamación",
-  smallIntro: "PILOGUARD reduce la inflamación en la zona anal, proporcionando un alivio efectivo.",
-  description: "La inflamación es uno de los principales síntomas de las hemorroides. PILOGUARD contiene ingredientes antiinflamatorios como la Cúrcuma, que actúan directamente sobre la zona afectada para disminuir la hinchazón y la irritación. Esto alivia el malestar y ayuda a restaurar el bienestar general de la persona.",
-  tags: ["salud", "antiinflamatorio", "hemorroides"]
+  title: "Mejora de la Salud de la Piel",
+  smallIntro: "HANGOVER ayuda a mejorar la salud de la piel afectada por la resaca.",
+  description: "La resaca puede hacer que la piel se vea opaca o seca. HANGOVER contiene ingredientes como el Amla y el Galo, que ayudan a restaurar la vitalidad de la piel, proporcionando antioxidantes y nutrientes esenciales para una piel más saludable y radiante.",
+  tags: ["salud de la piel", "resaca", "bienestar"]
 };
 
 const benefit22 = {
-  title: "Facilita la Cicatrización",
-  smallIntro: "PILOGUARD ayuda en la cicatrización rápida de los tejidos afectados por las hemorroides.",
-  description: "Gracias a su composición rica en Aloe Vera y Aceite de Coco, PILOGUARD favorece la regeneración celular y acelera la cicatrización de los tejidos dañados por las hemorroides. Esto no solo reduce el tiempo de recuperación, sino que también mejora la salud de la piel y previene nuevas lesiones.",
-  tags: ["salud", "cicatrización", "recuperación"]
+  title: "Prevención de Dolores Musculares Post-Resaca",
+  smallIntro: "HANGOVER ayuda a prevenir dolores musculares después de la resaca.",
+  description: "El alcohol puede provocar dolores musculares y rigidez. HANGOVER incluye ingredientes como el Ashwagandha y el Draksha, que actúan para aliviar la tensión muscular y prevenir dolores post-resaca, ayudando a que te sientas más flexible y sin molestias.",
+  tags: ["dolor muscular", "resaca", "alivio"]
 };
 
 const benefit23 = {
-  title: "Control del Dolor",
-  smallIntro: "PILOGUARD proporciona un control efectivo del dolor causado por las hemorroides.",
-  description: "El dolor es un síntoma común de las hemorroides, especialmente cuando se inflaman o se irritan. PILOGUARD actúa como un analgésico natural gracias a su contenido de ingredientes como la Manzanilla y el Aceite de Eucalipto, proporcionando alivio inmediato y reduciendo la incomodidad durante las actividades cotidianas.",
-  tags: ["salud", "analgésico", "dolor"]
+  title: "Recuperación de la Energía Mental",
+  smallIntro: "HANGOVER ayuda a recuperar la claridad mental después de la cruda.",
+  description: "La resaca puede afectar la concentración y claridad mental. HANGOVER ayuda a restaurar la energía mental mediante ingredientes como el Gokhru y el Bhrungraj, que mejoran la concentración, la memoria y la capacidad de enfoque, ayudando a que tu mente se recupere rápidamente.",
+  tags: ["energía mental", "resaca", "recuperación"]
 };
 
 const benefit24 = {
-  title: "Prevención de Recaídas",
-  smallIntro: "PILOGUARD ayuda a prevenir la aparición de hemorroides recurrentes.",
-  description: "Las hemorroides pueden volver a aparecer si no se toman medidas preventivas. PILOGUARD promueve la salud vascular y la circulación, evitando la congestión venosa que puede desencadenar una recaída. Su uso continuo mantiene las venas anales saludables y ayuda a prevenir futuros episodios.",
-  tags: ["prevención", "salud", "circulación"]
+  title: "Soporte para la Salud Digestiva",
+  smallIntro: "HANGOVER apoya la salud digestiva después de una noche de alcohol.",
+  description: "El alcohol puede alterar la digestión, y HANGOVER ayuda a restaurar el equilibrio en el sistema digestivo. Ingredientes como el Amla y el Kasni favorecen una digestión más suave, reduciendo la acidez y las molestias estomacales post-resaca.",
+  tags: ["salud digestiva", "resaca", "bienestar"]
 };
 
 const benefit25 = {
-  title: "Mejora la Digestión",
-  smallIntro: "PILOGUARD contribuye a una mejor digestión, lo que ayuda a reducir la presión sobre el área anal.",
-  description: "Un sistema digestivo eficiente es fundamental para prevenir problemas como las hemorroides. PILOGUARD mejora la digestión gracias a ingredientes como el Jengibre y la Menta, que facilitan el tránsito intestinal y reducen el riesgo de estreñimiento. Al mejorar la digestión, PILOGUARD ayuda a aliviar la presión en la zona anal y a reducir la aparición de hemorroides.",
-  tags: ["salud", "digestión", "bienestar"]
+  title: "Refuerzo de la Hidratación Celular",
+  smallIntro: "HANGOVER apoya la hidratación a nivel celular, esencial para una recuperación óptima.",
+  description: "La deshidratación celular es común después de la resaca, y HANGOVER trabaja para restablecer la hidratación a nivel celular. Con ingredientes como el Galo y el Draksha, ayuda a retener la humedad en las células, acelerando la recuperación y reduciendo los efectos de la deshidratación.",
+  tags: ["hidratación celular", "resaca", "recuperación"]
 };
-
 
 
 </script>

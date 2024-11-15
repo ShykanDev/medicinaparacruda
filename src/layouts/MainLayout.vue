@@ -1,67 +1,71 @@
 <template>
     <div class="selection:bg-white selection:text-emerald-700">
-        <header class="fixed left-0 right-0 z-50 flex flex-col text-white shadow-lg bg-emerald-700">
-            <!-- Navegación principal -->
-            <nav class="flex items-center justify-between px-4 lg:px-8">
-                <!-- Logo -->
-                <img src="https://medicinaparaansiedad.com/img/logo.png" alt="Logo" class="w-12 lg:w-14" />
+        <header class="fixed left-0 right-0 z-50 flex flex-col text-white bg-purple-700 shadow-lg bg-opacity-90">
+    <!-- Navegación principal -->
+    <nav class="flex items-center justify-between px-4 lg:px-8">
+        <!-- Links de navegación (cambiados al lado izquierdo) -->
+        <div class="flex gap-4 text-sm font-medium lg:text-lg lg:gap-6 font-sour-gummy">
+            <RouterLink :class="{ 'italic animate-jump-in': route.name === 'home' }" :to="{ name: 'home' }">
+                Inicio
+            </RouterLink>
+            <RouterLink :class="{ 'italic animate-jump-in': route.name === 'beneficts' }"
+                :to="{ name: 'beneficts' }">
+                Beneficios
+            </RouterLink>
+            <RouterLink :class="{ 'italic animate-jump-in': route.name === 'ingredients' }"
+                :to="{ name: 'ingredients' }">
+                Ingredientes
+            </RouterLink>
+            <RouterLink :class="{ 'italic animate-jump-in': route.name === 'faqs' }" :to="{ name: 'faqs' }">
+                Preguntas
+            </RouterLink>
+            <a href="https://www.prasadam.mx/" target="_blank" class="hidden hover:text-purple-300 md:block">
+                Prasadam
+            </a>
+        </div>
 
-                <!-- Links de navegación -->
-                <div class="flex gap-4 text-sm font-medium lg:text-lg lg:gap-6 font-sour-gummy">
-                    <RouterLink :class="{ 'italic animate-jump-in': route.name === 'home' }" :to="{ name: 'home' }">
-                        Inicio
-                    </RouterLink>
-                    <RouterLink :class="{ 'italic animate-jump-in': route.name === 'beneficts' }"
-                        :to="{ name: 'beneficts' }">
-                        Beneficios
-                    </RouterLink>
-                    <RouterLink :class="{ 'italic animate-jump-in': route.name === 'ingredients' }"
-                        :to="{ name: 'ingredients' }">
-                        Ingredientes
-                    </RouterLink>
-                    <RouterLink :class="{ 'italic animate-jump-in': route.name === 'faqs' }" :to="{ name: 'faqs' }">
-                        Preguntas
-                    </RouterLink>
-                    <a href="https://www.prasadam.mx/" target="_blank" class="hidden hover:text-orange-300 md:block">
-                        Prasadam
-                    </a>
-                </div>
-            </nav>
+        <!-- Logo (cambiado a la derecha) -->
+        <img src="https://medicinaparaansiedad.com/img/logo.png" alt="Logo" class="w-12 lg:w-14" />
+    </nav>
 
-            <!-- Información de contacto -->
-            <div
-                class="flex-col hidden gap-4 px-4 py-3 text-xs lg:flex lg:flex-row lg:items-center lg:justify-evenly lg:text-base bg-emerald-800">
-                <!-- Dirección -->
-                <div class="flex items-center gap-2">
-                    <v-icon name="md-locationon" class="text-emerald-300" scale="1.5" />
-                    <a href="https://www.google.com.mx/maps/place/Gutenberg+128,+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+M%C3%A9xico,+CDMX/@19.4322888,-99.1760704,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1f8b32758939b:0xf34fbd07bc47d6dd!8m2!3d19.4322888!4d-99.1760704!16s%2Fg%2F11c4n3lm2g?entry=ttu&g_ep=EgoyMDI0MTEwNS4wIKXMDSoASAFQAw%3D%3D"
-                        target="_blank" class="hover:text-emerald-400">
-                        Gutenberg #128 Anzures, Miguel Hidalgo, 11590 Ciudad de México
-                    </a>
-                </div>
+    <!-- Información de contacto (sin cambios) -->
+    <div
+        class="flex-col hidden gap-4 px-4 py-3 text-xs bg-purple-800 bg-opacity-70 lg:flex lg:flex-row lg:items-center lg:justify-evenly lg:text-base">
+        <!-- Dirección -->
+        <div class="flex items-center gap-2">
+            <v-icon name="md-locationon" class="text-purple-300" scale="1.5" />
+            <a href="https://www.google.com.mx/maps/place/Gutenberg+128,+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+M%C3%A9xico,+CDMX/@19.4322888,-99.1760704,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1f8b32758939b:0xf34fbd07bc47d6dd!8m2!3d19.4322888!4d-99.1760704!16s%2Fg%2F11c4n3lm2g?entry=ttu&g_ep=EgoyMDI0MTEwNS4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank" class="hover:text-purple-400">
+                Gutenberg #128 Anzures, Miguel Hidalgo, 11590 Ciudad de México
+            </a>
+        </div>
 
-                <!-- Teléfonos -->
-                <div class="flex items-center gap-2">
-                    <v-icon name="bi-telephone-fill" class="text-emerald-300" scale="1.5" />
-                    <a href="tel:+525563950178" class="font-bold hover:text-emerald-400">
-                        +52 55 6395 0178
-                    </a>
-                    <v-icon name="bi-telephone-fill" class="text-emerald-300" scale="1.5" />
-                    <a href="tel:+525563950179" class="font-bold hover:text-emerald-400">
-                        +52 55 6395 0179
-                    </a>
-                </div>
+        <!-- Teléfonos -->
+        <div class="flex items-center gap-2">
+            <v-icon name="bi-telephone-fill" class="text-purple-300" scale="1.5" />
+            <a href="tel:+525563950178" class="font-bold hover:text-purple-400">
+                +52 55 6395 0178
+            </a>
+            <v-icon name="bi-telephone-fill" class="text-purple-300" scale="1.5" />
+            <a href="tel:+525563950179" class="font-bold hover:text-purple-400">
+                +52 55 6395 0179
+            </a>
+        </div>
 
-                <!-- WhatsApp -->
-                <div class="flex items-center gap-2">
-                    <v-icon name="co-whatsapp" class="text-emerald-300" scale="1.5" />
-                    <a href="https://wa.me/525562516687" target="_blank" rel="noopener noreferrer"
-                        class="font-bold hover:text-emerald-400">
-                        +52 5562516687
-                    </a>
-                </div>
-            </div>
-        </header>
+        <!-- WhatsApp -->
+        <div class="flex items-center gap-2">
+            <v-icon name="co-whatsapp" class="text-purple-300" scale="1.5" />
+            <a href="https://wa.me/525562516687" target="_blank" rel="noopener noreferrer"
+                class="font-bold hover:text-purple-400">
+                +52 5562516687
+            </a>
+        </div>
+    </div>
+</header>
+
+
+
+
 
         <main class="pt-[107px]">
             <slot name="main" />
