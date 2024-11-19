@@ -1,0 +1,1 @@
+import{d as o,c as s,a as t,w as a,_ as n,o as r,b as _}from"./index-Dz7xVd5l.js";const c={class:""},d=o({__name:"AboutView",setup(i){return(l,e)=>(r(),s("div",c,[t(n,null,{main:a(()=>e[0]||(e[0]=[_("h1",null,"Sobre Nosotros",-1)])),_:1})]))}});export{d as default};
