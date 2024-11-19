@@ -6,9 +6,9 @@
   Conozca los ingredientes <span class="text-rose-300">NATURALES</span> que <span class="underline decoration-rose-300">HANGOVER</span> le ofrece para la <span class="text-rose-300">CRUDA</span>
 </h1>
                 <div class="grid grid-cols-3">
-                <img class="animate-flip-up" src="../assets/front.png" alt="">
-                <img class="animate-flip-up" src="../assets/syrup.png" alt="">
-                <img class="animate-flip-up" src="../assets/frontRight.png" alt="">
+                  <img class="animate-flip-up" src="../assets/left.png" alt="">
+                  <img class="animate-flip-up" src="../assets/front.png" alt="">
+                <img class="animate-flip-up" src="../assets/right.png" alt="">
               </div>
               <section class="flex flex-wrap justify-between gap-5 p-4 font-poppins">
   <div class="flex-1 sm:flex-1 md:flex-1 lg:w-1/2">

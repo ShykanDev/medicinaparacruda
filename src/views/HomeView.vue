@@ -7,14 +7,14 @@
   class="flex flex-col items-center pt-2 lg:items-center lg:flex lg:justify-around lg:w-1/3 lg:h-screen rounded-bl-md rounded-br-md  bg-gradient-to-l from-rose-50 via-rose-1.00 to-rose-100 lg:py-20">
   <h2
     class="hidden text-3xl font-extrabold text-center text-rose-900 font-poppins animate-fade-down lg:block">
-    Solución Natural con CIDNI para el Alivio de las HEMORROIDES
+    Solución Natural con HANGOVER para el Alivio de la CRUDA
   </h2>
   <h1 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-down">
-    <span class="text-rose-600">Protección Ayurvédica Contra las HEMORROIDES</span>
+    <span class="text-rose-600">Protección Ayurvédica Contra la RESACA</span>
   </h1>
   <div class="flex items-center">
       <h2 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-up">
-        <span class="text-white bg-rose-700 font-varela">Medicina ayurvédica con origen milenario en la India.</span>
+        <span class="text-white bg-emerald-500 font-varela">Medicina ayurvédica con origen milenario en la India.</span>
       </h2>
       <img class="w-36" src="https://i.ibb.co/VqZ4mch/saint-Indian-removebg-preview.png" alt="Icon Image">
     </div>
@@ -81,7 +81,7 @@
             description="En algunos casos, tomar alcohol traerá al otro día un fuerte dolor de cabeza, mucha sed, cansancio, debilidad, nausea, dolor muscular, vértigo e incluso irritabilidad. Comúnmente estos síntomas son conocidos como resaca o cruda, pero ¿sabes qué pasa dentro del organismo para que te sientas así?"
             href-link="https://unamglobal.unam.mx/global_revista/que-pasa-en-el-organismo-cuando-estas-crudo/"
             img-src="https://unamglobal.unam.mx/wp-content/uploads/2022/01/resaca001.jpg" />
-          <NewsCard data-aos="flip-right" title="Hemorroides: lo que hay que comer y lo que hay que sacar de la dieta"
+          <NewsCard data-aos="flip-right" title="6 Consejos para aliviar la resaca"
             description="Los efectos de la resaca varían en cada persona y de una experiencia a otra. El tipo y cantidad de bebida ingerida, la velocidad de consumo y el estado general de salud influyen en su gravedad y duración, pudiendo oscilar entre 24 y 48 horas. Algunos estudios, como el realizado por la revista Nature Communications en 2019, incluso relacionan el papel de determinados genomas y de la herencia genética en la manera de experimentar la resaca. "
             href-link="https://www.kernpharma.com/es/blog/6-consejos-para-aliviar-la-resaca"
             img-src="https://www.kernpharma.com/sites/default/files/styles/blog_full/public/blog/Post%20Blog%20REDISAC.webp?itok=FeK-U8dE" />

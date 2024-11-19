@@ -36,13 +36,36 @@
     
     <script lang="ts" setup>
     const props = defineProps({
-            title:String,
-            smallIntro: String,
-            description: String,
-            tags:Array,
-            imgSrc: String,
-            listTitles: Array,
-            listContent: Array
+      title:{
+        type:String,
+      },
+      smallIntro: {
+        type: String,
+      },
+      description: {
+        type: String,
+      },
+      tags: {
+        type: Array,
+      },
+      imgSrc: {
+        type: String,
+      },
+      listTitles: {
+        type: Array,
+      },
+      listContent: {
+        type: Array,
+        default: () => [],
+      },
+
+            // title:String,
+            // smallIntro: String,
+            // description: String,
+            // tags:Array,
+            // imgSrc: String,
+            // listTitles: Array,
+            // listContent: Array
     })
     </script>
     
