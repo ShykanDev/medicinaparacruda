@@ -4,7 +4,7 @@
         <!-- Contenedor del texto y la imagen del centro -->
         <div class="lg:w-1/2">
           <!-- Título arriba -->
-          <h2 class="z-10 text-2xl font-semibold text-center text-purple-800 lg:text-5xl">
+          <h2 class="z-10 text-2xl font-semibold text-center text-rose-800 lg:text-5xl">
             {{ title }}
           </h2>
           <!-- Descripciones -->
@@ -62,7 +62,7 @@
    * Envuelve la palabra "gastritis" en un <strong>.
    */
   const highlightGastritis = (text: string) => {
-    return text.replace(/cruda/gi, '<strong class="text-purple-600">CRUDA</strong>');
+    return text.replace(/cruda/gi, '<strong class="text-rose-600">CRUDA</strong>');
   };
   </script>
   

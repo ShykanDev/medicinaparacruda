@@ -4,19 +4,22 @@
       <template #main>
         <article class="w-full overflow-hidden lg:flex lg:items-center">
           <div
-  class="flex flex-col items-center pt-2 lg:items-center lg:flex lg:justify-around lg:w-1/3 lg:h-screen rounded-bl-md rounded-br-md lg:py-11 bg-gradient-to-l from-purple-100 via-purple-1.00 to-purple-200">
+  class="flex flex-col items-center pt-2 lg:items-center lg:flex lg:justify-around lg:w-1/3 lg:h-screen rounded-bl-md rounded-br-md  bg-gradient-to-l from-rose-50 via-rose-1.00 to-rose-100 lg:py-20">
   <h2
-    class="hidden text-3xl font-extrabold text-center text-purple-900 font-poppins animate-fade-down lg:block">
+    class="hidden text-3xl font-extrabold text-center text-rose-900 font-poppins animate-fade-down lg:block">
     Solución Natural con CIDNI para el Alivio de las HEMORROIDES
   </h2>
   <h1 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-down">
-    <span class="text-purple-600">Protección Ayurvédica Contra las HEMORROIDES</span>
+    <span class="text-rose-600">Protección Ayurvédica Contra las HEMORROIDES</span>
   </h1>
-  <h1 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-down">
-    <span class="text-purple-500">Desde la Sabiduría de la India, Hasta Tu Hogar</span>
-  </h1>
+  <div class="flex items-center">
+      <h2 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-up">
+        <span class="text-white bg-rose-700 font-varela">Medicina ayurvédica con origen milenario en la India.</span>
+      </h2>
+      <img class="w-36" src="https://i.ibb.co/VqZ4mch/saint-Indian-removebg-preview.png" alt="Icon Image">
+    </div>
   <a href="#hangover"
-    class="p-1 my-3 font-bold text-purple-600 rounded-md bg-purple lg:rounded-lg lg:text-xl lg:p-2 font-poppins animate-bounce">
+    class="p-1 my-3 font-bold text-white rounded-md bg-rose-700 bg-rose lg:rounded-lg lg:text-xl lg:p-2 font-poppins animate-bounce">
     Descubre Más
   </a>
 </div>
@@ -26,64 +29,64 @@
 
         <section id="hangover" class="space-y-20 overflow-hidden lg:mt-5">
           <CardInfoSm class=""
-            img-center="https://images.pexels.com/photos/20419192/pexels-photo-20419192/free-photo-of-yellow-petals-on-spoon-by-book-on-desk.jpeg?auto=compress&cs=tinysrgb&w=600"
+            img-center="https://storage.googleapis.com/a1aa/image/qrc81UBRe1WoA64F0onJNDi5w5dqQtGfgrqwPDUEoZTidmyTA.jpg"
             :title="info1.title" :description="info1.content" :description2="info1.content2" />
           <CardInfoSm data-aos="zoom-in-down" class=""
-            img-center="https://storage.googleapis.com/a1aa/image/r0BoDpxo0sZkBpf4kVoFtHHLCEPZQ7vePLeDEXkralkfGVEPB.jpg"
+            img-center="https://storage.googleapis.com/a1aa/image/qVP0s2tGjgZBHZRAHTQw2C59xXxjIfzJw3QSGJBsK1xZST5JA.jpg"
             :title="info2.title" :description="info2.content" :description2="info2.content2" />
           <CardInfoSm data-aos="zoom-in-right" class=""
-            img-center="https://storage.googleapis.com/a1aa/image/4BhzCIfe9RmFa0urh1BAiP4MwRWf2Bi2fneX4fHjffKXcUFxTA.jpg"
+            img-center="https://storage.googleapis.com/a1aa/image/MqUZZxXAfhzJMSQdX6XP2ngTcV15GPjdT0j68MCjb9IMST5JA.jpg"
             :title="info3.title" :description="info3.content" :description2="info3.content2" />
           <CardInfoSm data-aos="zoom-out-right" class=""
-            img-center="https://storage.googleapis.com/a1aa/image/ePkaOfN0Y7t4ck4erdtUEBQWIp38FRMv75ZYXyyeRWORYVEPB.jpg"
+            img-center="https://storage.googleapis.com/a1aa/image/S7XenXmXRcTCRa5T3Fd7p4CzUdkF71tXLw8MuCnKNX3yTT5JA.jpg"
             :title="info4.title" :description="info4.content" :description2="info4.content2" />
           <CardInfoSm data-aos="fade-left" class=""
-            img-center="https://storage.googleapis.com/a1aa/image/9dr3zANW2W7nDFfdJcreT1Db4whWgPCR3v3gGEVlB1vLdFxTA.jpg"
+            img-center="https://storage.googleapis.com/a1aa/image/Eb8fqq3JSq2zMKC9DURwRO0u8FQdVji1r0EUAyWgBylfpmyTA.jpg"
             :title="info5.title" :description="info5.content" :description2="info5.content2" />
           <CardInfoSm data-aos="fade-right" class=""
-            img-center="https://storage.googleapis.com/a1aa/image/DyNvXulZjAoxBNYAGIzLKL3FyFSGssBm3dpY5IxJkC8LXR8E.jpg"
+            img-center="https://storage.googleapis.com/a1aa/image/aFoAYzYLX5a6HdszLXNkfjPA8IJI3fNFA4NfIIJ5vm9oWNlnA.jpg"
             :title="info6.title" :description="info6.content" :description2="info6.content2" />
           <CardInfoSm data-aos="fade-up" class=""
-            img-center="https://storage.googleapis.com/a1aa/image/mnoXrjWPs6LVPJsfVmxdUDeMWA7ueatTuanye3MObjspaWEPB.jpg"
+            img-center="https://storage.googleapis.com/a1aa/image/jIUbihfhjjUOBaMFeEoAuufOBAQbAkJjto7uhiFjAXX2YNlnA.jpg"
             :title="info7.title" :description="info7.content" :description2="info7.content2" />
         </section>
-        <div class="w-full h-[1px] my-4 bg-purple-800" />
+        <div class="w-full h-[1px] my-4 bg-rose-800" />
         <section>
-          <h2 class="my-4 text-3xl font-bold text-center text-purple-800 font-poppins">Le recomendamos vea este video
-            sobre HEMORROIDES y sus soluciones naturales</h2>
+          <h2 class="my-4 text-3xl font-bold text-center text-rose-800 font-poppins">Le recomendamos vea este video
+            sobre la CRUDA y sus soluciones naturales</h2>
           <iframe data-aos="zoom-in-left" class="w-full h-52 lg:h-[550px]"
-            src="https://www.youtube.com/embed/GuPPZOoy29w?si=qW4HgQ1FaBISaYnl" title="YouTube video player"
+            src="https://www.youtube.com/embed/yhkSI71TdSQ?si=jnO5S-uUErBxeR4A" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
-        <div class="w-full h-[1px] my-4 bg-purple-800" />
+        <div class="w-full h-[1px] my-4 bg-rose-800" />
 
-        <h2 class="my-4 text-3xl font-semibold text-center text-purple-800">Noticias 📰</h2>
+        <h2 class="my-4 text-3xl font-semibold text-center text-rose-800">Noticias 📰</h2>
         <section class="flex flex-col flex-wrap w-full px-3 space-y-5 font-poppins mt-11 md:flex-row md:justify-around">
-          <NewsCard data-aos="flip-right" title="Intentar medidas de autocuidado para aliviar las hemorroides"
-            description="Se presentan diversas medidas de autocuidado recomendadas por especialistas para aliviar las molestias causadas por las hemorroides, incluyendo cambios en el estilo de vida y tratamientos caseros."
-            href-link="https://newsnetwork.mayoclinic.org/es/2016/09/27/intentar-medidas-de-autocuidado-para-aliviar-las-hemorroides/"
-            img-src="https://newsnetwork.mayoclinic.org/n7-mcnn/7bcc9724adf7b803/uploads/2016/06/a-medical-illustration-showing-internal-and-external-hemorrhoids-16X9.jpg" />
-          <NewsCard data-aos="flip-right" title="Hemorroides: cuáles son los síntomas, las causas y cómo identificarlas"
-            description="Este padecimiento es más normal de lo que parece, afecta a tres de cada cuatro personas, sin embargo, existe una amplia gama de tratamientos para eliminarlas, desde remedios caseros, cremas, medicamentos y hasta cirugías"
-            href-link="https://www.infobae.com/noticias/2022/11/17/hemorroides-cuales-son-los-sintomas-las-causas-y-como-identificarla/"
-            img-src="https://www.infobae.com/resizer/v2/LV2N7VYWQFBBVAAXAGAGZGCFUI.jpg?auth=18e0b4e13102514f6a3b447adc1fe1da158b4ed441b0df733a3fd4e720e8bbc6&smart=true&width=992&height=661&quality=15" />
+          <NewsCard data-aos="flip-right" title="La famosa “resaca”, síntomas tras el consumo de alcohol"
+            description="La resaca es un conjunto de síntomas que resultan del consumo excesivo de alcohol. Estos incluyen deshidratación, dolores de cabeza, náuseas y fatiga, todos causados por la alteración en varios sistemas del cuerpo. Se explica cómo el alcohol afecta al sistema nervioso, al estómago y a la hidratación general, entre otros factores."
+            href-link="https://www.quironsalud.com/es/comunicacion/contenidos-salud/famosa-resaca-sintomas-tras-consumo-alcohol"
+            img-src="https://storage.googleapis.com/a1aa/image/aZNjGfTzOK0CKqaGrBxQxYbNK4tX2XZkiyK29JjX5LpcdT5JA.jpg" />
+          <NewsCard data-aos="flip-right" title="¿Qué causa la resaca? Y cómo superarla"
+            description="'La cerveza no se compra, se alquila'. Y el coste añadido de alquilarla es la resaca. Eso decía un profesor de biología. Pero, ¿cómo afecta realmente el alcohol nuestro cuerpo y cerebro, y cuánto sabemos de las resacas?"
+            href-link="https://www.dw.com/es/qu%C3%A9-causa-la-resaca-y-c%C3%B3mo-superarla/a-67846907"
+            img-src="https://static.dw.com/image/67810263_1004.webp" />
           <NewsCard data-aos="flip-right"
-            title="Los médicos advierten que no se debe permanecer sentado en el inodoro durante más de 10 minutos"
-            description="“Cuando los pacientes acuden a mí con quejas, una de las principales áreas en las que tenemos que profundizar es el hecho de pasar mucho tiempo en el baño”, dijo Xue."
-            href-link="https://cnnespanol.cnn.com/2024/11/13/medicos-advierten-no-se-debe-permanecer-sentado-inodoro-mas-de-10-minutos-trax/"
-            img-src="https://media.cnn.com/api/v1/images/stellar/prod/cnne-1780573-inodoro.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp" />
-          <NewsCard data-aos="flip-right" title="Hemorroides: romper el tabú para una mejor prevención y tratamiento"
-            description="Aunque no hay una cifra oficial, se calcula que al menos el 35% de la población mundial padece hemorroides. En nuestro país, de acuerdo con los últimos datos del Gobierno Federal y el Hospital General de México, esta condición afecta al 5% de la población; sin embargo, su prevalencia aumenta hasta el 50% a partir de los 50 años."
-            href-link="https://unamglobal.unam.mx/global_revista/hemorroides-romper-el-tabu-para-una-mejor-prevencion-y-tratamiento/"
-            img-src="https://www.infobae.com/resizer/v2/GW24ZIZS3VBO3AXZSALAE3JGP4.jpg?auth=d8161aea1ad6041f39bd8673b0bc4eb89e60c098323e53c0333be973ee83c929&smart=true&width=992&height=558&quality=85" />
+            title="Todo sobre la resaca"
+            description="La resaca es un conjunto de síntomas desagradables que pueden aparecer después de tomar demasiado alcohol. Como si sentirse mal no fuera suficiente, las resacas frecuentes también están asociadas con el bajo rendimiento y los conflictos en casa, en la escuela y en el trabajo."
+            href-link="https://www.mayoclinic.org/es/diseases-conditions/hangovers/symptoms-causes/syc-20373012"
+            img-src="https://storage.googleapis.com/a1aa/image/l8n2GInQa7YqCJalr7QNdqUmedvFBjVG86tAPU2x5BNScT5JA.jpg" />
+          <NewsCard data-aos="flip-right" title="¿Qué pasa en el organismo cuándo estas crudo?"
+            description="En algunos casos, tomar alcohol traerá al otro día un fuerte dolor de cabeza, mucha sed, cansancio, debilidad, nausea, dolor muscular, vértigo e incluso irritabilidad. Comúnmente estos síntomas son conocidos como resaca o cruda, pero ¿sabes qué pasa dentro del organismo para que te sientas así?"
+            href-link="https://unamglobal.unam.mx/global_revista/que-pasa-en-el-organismo-cuando-estas-crudo/"
+            img-src="https://unamglobal.unam.mx/wp-content/uploads/2022/01/resaca001.jpg" />
           <NewsCard data-aos="flip-right" title="Hemorroides: lo que hay que comer y lo que hay que sacar de la dieta"
-            description="Además de hacer ejercicios para favorecer la movilidad intestinal, una alimentación rica en fibras puede ayudar."
-            href-link="https://tn.com.ar/salud/noticias/2023/04/15/hemorroides-lo-que-hay-que-comer-y-lo-que-hay-que-sacar-de-la-dieta/"
-            img-src="https://tn.com.ar/resizer/v2/las-frutas-como-la-manzana-y-la-pera-son-recomendables-cuando-se-tiene-hemorroides-foto-adobe-stock-ZP4PRHMIVBHYPMUCAKYX3J6AWA.jpg?auth=231c4d9b7a068f0eca9ec8700fb8b52b1f3b66f0f202e310dc8f6b08d951e0d2&width=1440" />
+            description="Los efectos de la resaca varían en cada persona y de una experiencia a otra. El tipo y cantidad de bebida ingerida, la velocidad de consumo y el estado general de salud influyen en su gravedad y duración, pudiendo oscilar entre 24 y 48 horas. Algunos estudios, como el realizado por la revista Nature Communications en 2019, incluso relacionan el papel de determinados genomas y de la herencia genética en la manera de experimentar la resaca. "
+            href-link="https://www.kernpharma.com/es/blog/6-consejos-para-aliviar-la-resaca"
+            img-src="https://www.kernpharma.com/sites/default/files/styles/blog_full/public/blog/Post%20Blog%20REDISAC.webp?itok=FeK-U8dE" />
         </section>
-        <div class="w-full h-[1px] my-4 bg-purple-800" />
+        <div class="w-full h-[1px] my-4 bg-rose-800" />
 
         <!-- Ads Section -->
         <h3 class="mt-6 text-2xl font-bold text-center text-rose-900 font-poppins">Le puede interesar</h3>
@@ -101,11 +104,11 @@
                 <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl">100% Natural</p>
               </div>
               <img class="w-full h-full bg-contain rounded-md"
-                src="https://shykandev.github.io/medicinaparahigado/assets/mainHome-BjxRmTRc.jpg" alt="">
-              <p class="absolute text-xs font-bold text-center text-white bg-red-600 top-1 font-poppins md:text-3xl">
-                ¿Problemas en el Hígado?</p>
-              <p class="absolute text-xs font-bold text-center text-white bottom-1 font-poppins md:text-3xl">
-                Conozca Livad</p>
+                src="https://medicinaparagastritis.com/assets/mainImg-PTGONR8Z.jpg" alt="">
+              <p class="absolute text-xs font-bold text-center text-white bg-cyan-600 top-1 font-poppins md:text-3xl">
+                ¿Tiene usted Gastritis?</p>
+              <p class="absolute text-xs font-bold text-center text-white bg-cyan-600 bottom-1 font-poppins md:text-3xl">
+                Conozca CIDNI</p>
             </a>
           </div>
 
@@ -125,9 +128,9 @@
               <img class="w-full h-full bg-contain rounded-md"
                 src="https://shykandev.github.io/medicinaparadiabetes/assets/mainHome-EGZr2Qar.jpg" alt="">
               <p class="absolute top-0 text-xs font-bold text-center text-white bg-yellow-600 font-poppins md:text-3xl">
-                ¿Tienes Diabetes?</p>
+                ¿Tiene Diabetes?</p>
               <p
-                class="absolute px-3 text-xs font-bold text-center text-white md:px-0 bottom-3 font-poppins md:text-3xl">
+                class="absolute px-3 text-xs font-bold text-center text-white bg-orange-700 md:px-0 bottom-3 font-poppins md:text-3xl">
                 Le recomendamos GLUFAC</p>
             </a>
           </div>

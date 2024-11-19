@@ -6,10 +6,10 @@
       <!-- Contenido -->
       <div class="p-6">
         <!-- Título -->
-        <h2 class="mb-2 text-2xl font-semibold text-emerald-800">{{ title }}</h2>
+        <h2 class="mb-2 text-2xl font-semibold text-rose-800">{{ title }}</h2>
         
         <!-- Pequeña Descripción -->
-        <p class="mb-4 text-sm italic text-emerald-900 font font-poppins">{{ smallDescription }}</p>
+        <p class="mb-4 text-sm italic text-rose-900 font font-poppins">{{ smallDescription }}</p>
         
         <!-- Descripción -->
         <p class="text-base text-slate-700 font-poppins">
