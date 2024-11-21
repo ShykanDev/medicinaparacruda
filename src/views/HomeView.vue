@@ -3,56 +3,57 @@
     <MainLayout>
       <template #main>
         <article class="w-full overflow-hidden lg:flex lg:items-center">
-          <div
-  class="flex flex-col items-center pt-2 lg:items-center lg:flex lg:justify-around lg:w-1/3 lg:h-screen rounded-bl-md rounded-br-md  bg-gradient-to-l from-rose-50 via-rose-1.00 to-rose-100 lg:py-20">
-  <h2
-    class="hidden text-3xl font-extrabold text-center text-rose-900 font-poppins animate-fade-down lg:block">
-    Solución Natural con HANGOVER para el Alivio de la CRUDA
-  </h2>
-  <h1 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-down">
-    <span class="text-rose-600">Protección Ayurvédica Contra la RESACA</span>
-  </h1>
-  <div class="flex items-center">
-      <h2 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-up">
-        <span class="text-white bg-emerald-500 font-varela">Medicina ayurvédica con origen milenario en la India.</span>
-      </h2>
-      <img class="w-36" src="https://i.ibb.co/VqZ4mch/saint-Indian-removebg-preview.png" alt="Icon Image">
+          <div class="flex flex-col items-center px-8 py-16 rounded-tl-lg rounded-br-lg shadow-xl lg:items-start lg:w-1/3 lg:h-screen lg:px-16 bg-gradient-to-r from-cyan-100 to-cyan-50">
+    <h2 class="mb-6 text-4xl font-extrabold leading-tight text-center lg:text-left text-cyan-700 font-poppins animate-fade-down">
+        Solución Natural con HANGOVER para el Alivio de la CRUDA
+        <strong class="px-3 py-1 text-white rounded-md bg-cyan-700">
+            RESACA
+        </strong>
+    </h2>
+
+    <div class="flex flex-col items-center mb-8 lg:flex-row lg:mb-16">
+        <h3 class="mb-4 text-xl font-semibold text-gray-800 lg:text-2xl font-varela lg:text-left lg:mr-8 lg:mb-0">
+            Medicina ayurvédica con origen milenario en la India.
+        </h3>
+        <img class="object-cover rounded-full shadow-lg w-28 h-28 lg:w-40 lg:h-40 lg:ml-6" src="https://i.ibb.co/VqZ4mch/saint-Indian-removebg-preview.png" alt="Icon Image">
     </div>
-  <a href="#hangover"
-    class="p-1 my-3 font-bold text-white rounded-md bg-rose-700 bg-rose lg:rounded-lg lg:text-xl lg:p-2 font-poppins animate-bounce">
-    Descubre Más
-  </a>
+
+    <a href="#hangover"
+       class="px-6 py-3 font-bold text-white transition duration-300 ease-in-out transform shadow-lg bg-cyan-700 rounded-xl lg:text-lg lg:px-8 lg:py-4 hover:bg-cyan-800 hover:scale-105 animate-bounce">
+       Descubre Más
+    </a>
 </div>
 
-          <img src="../assets/mainImg.jpg" class="lg:w-2/3 animate-fade-up lg:h-screen" alt="Producto CIDNI">
+
+          <img src="https://i.ibb.co/tYnbhNc/main-Hangover.jpg" class="lg:w-2/3 animate-fade-up lg:h-screen" alt="Producto CIDNI">
         </article>
 
         <section id="hangover" class="space-y-20 overflow-hidden lg:mt-5">
           <CardInfoSm class=""
-            img-center="https://storage.googleapis.com/a1aa/image/qrc81UBRe1WoA64F0onJNDi5w5dqQtGfgrqwPDUEoZTidmyTA.jpg"
+            img-center="https://storage.googleapis.com/a1aa/image/XfTwSeqzXNn5VkmUGzGVY3L7fVufakBzoMWXoHHUkBIpbcNPB.jpg"
             :title="info1.title" :description="info1.content" :description2="info1.content2" />
           <CardInfoSm data-aos="zoom-in-down" class=""
-            img-center="https://storage.googleapis.com/a1aa/image/qVP0s2tGjgZBHZRAHTQw2C59xXxjIfzJw3QSGJBsK1xZST5JA.jpg"
+            img-center="https://storage.googleapis.com/a1aa/image/41TQvbwqOUpXFt7BIihhiWf9N9wC9peBKDBJf4hrwC5CQumnA.jpg"
             :title="info2.title" :description="info2.content" :description2="info2.content2" />
           <CardInfoSm data-aos="zoom-in-right" class=""
-            img-center="https://storage.googleapis.com/a1aa/image/MqUZZxXAfhzJMSQdX6XP2ngTcV15GPjdT0j68MCjb9IMST5JA.jpg"
+            img-center="https://storage.googleapis.com/a1aa/image/1goXHboQ4ewEaCEee1VIiUIM5j5MPie3g7rf4leTKcRaMy18E.jpg"
             :title="info3.title" :description="info3.content" :description2="info3.content2" />
           <CardInfoSm data-aos="zoom-out-right" class=""
-            img-center="https://storage.googleapis.com/a1aa/image/S7XenXmXRcTCRa5T3Fd7p4CzUdkF71tXLw8MuCnKNX3yTT5JA.jpg"
+            img-center="https://storage.googleapis.com/a1aa/image/I6lFf0UZeuuFUUxlANhPf8hcwuelm8icRlTxntD4uoIfP5aeE.jpg"
             :title="info4.title" :description="info4.content" :description2="info4.content2" />
           <CardInfoSm data-aos="fade-left" class=""
-            img-center="https://storage.googleapis.com/a1aa/image/Eb8fqq3JSq2zMKC9DURwRO0u8FQdVji1r0EUAyWgBylfpmyTA.jpg"
+            img-center="https://storage.googleapis.com/a1aa/image/8k51dfL8PwyPFSs7SzqTWEI6mcfMHg7SYdvgX43Zr8F1KXzTA.jpg"
             :title="info5.title" :description="info5.content" :description2="info5.content2" />
           <CardInfoSm data-aos="fade-right" class=""
-            img-center="https://storage.googleapis.com/a1aa/image/aFoAYzYLX5a6HdszLXNkfjPA8IJI3fNFA4NfIIJ5vm9oWNlnA.jpg"
+            img-center="https://storage.googleapis.com/a1aa/image/lrmfvtAWLk0rfksphLCKfoZK414Oq9YaWU3NG5ihWooXXumnA.jpg"
             :title="info6.title" :description="info6.content" :description2="info6.content2" />
           <CardInfoSm data-aos="fade-up" class=""
-            img-center="https://storage.googleapis.com/a1aa/image/jIUbihfhjjUOBaMFeEoAuufOBAQbAkJjto7uhiFjAXX2YNlnA.jpg"
+            img-center="https://storage.googleapis.com/a1aa/image/R04KNCkNtW4WHtRfOfVCRsaRgKaf739ViGARGcnR4EQ8YumnA.jpg"
             :title="info7.title" :description="info7.content" :description2="info7.content2" />
         </section>
-        <div class="w-full h-[1px] my-4 bg-rose-800" />
+        <div class="w-full h-[1px] my-4 bg-cyan-800" />
         <section>
-          <h2 class="my-4 text-3xl font-bold text-center text-rose-800 font-poppins">Le recomendamos vea este video
+          <h2 class="my-4 text-3xl font-bold text-center text-cyan-800 font-poppins">Le recomendamos vea este video
             sobre la CRUDA y sus soluciones naturales</h2>
           <iframe data-aos="zoom-in-left" class="w-full h-52 lg:h-[550px]"
             src="https://www.youtube.com/embed/yhkSI71TdSQ?si=jnO5S-uUErBxeR4A" title="YouTube video player"
@@ -60,9 +61,9 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
-        <div class="w-full h-[1px] my-4 bg-rose-800" />
+        <div class="w-full h-[1px] my-4 bg-cyan-800" />
 
-        <h2 class="my-4 text-3xl font-semibold text-center text-rose-800">Noticias 📰</h2>
+        <h2 class="my-4 text-3xl font-semibold text-center text-cyan-800">Noticias 📰</h2>
         <section class="flex flex-col flex-wrap w-full px-3 space-y-5 font-poppins mt-11 md:flex-row md:justify-around">
           <NewsCard data-aos="flip-right" title="La famosa “resaca”, síntomas tras el consumo de alcohol"
             description="La resaca es un conjunto de síntomas que resultan del consumo excesivo de alcohol. Estos incluyen deshidratación, dolores de cabeza, náuseas y fatiga, todos causados por la alteración en varios sistemas del cuerpo. Se explica cómo el alcohol afecta al sistema nervioso, al estómago y a la hidratación general, entre otros factores."
@@ -86,10 +87,10 @@
             href-link="https://www.kernpharma.com/es/blog/6-consejos-para-aliviar-la-resaca"
             img-src="https://www.kernpharma.com/sites/default/files/styles/blog_full/public/blog/Post%20Blog%20REDISAC.webp?itok=FeK-U8dE" />
         </section>
-        <div class="w-full h-[1px] my-4 bg-rose-800" />
+        <div class="w-full h-[1px] my-4 bg-cyan-800" />
 
         <!-- Ads Section -->
-        <h3 class="mt-6 text-2xl font-bold text-center text-rose-900 font-poppins">Le puede interesar</h3>
+        <h3 class="mt-6 text-2xl font-bold text-center text-cyan-900 font-poppins">Le puede interesar</h3>
         <section class="flex justify-center w-full my-6 space-x-4"> <!-- ads section -->
           <div
             class="relative flex items-center justify-center w-1/2 p-4 border-2 rounded-lg shadow-md border-slate-400 bg-slate-100">
@@ -188,46 +189,47 @@ import AOS from 'aos';
 AOS.init();
 
 const info1 = {
-  title: "HANGOVER: Tu solución natural para la cruda",
-  content: "HANGOVER es un suplemento 100% natural diseñado para aliviar los efectos de la resaca. Combinando ingredientes tradicionales de la medicina ayurvédica, como el Amla y la Ashwagandha, HANGOVER ayuda a reducir la inflamación, mejorar la digestión y restaurar el equilibrio de tu cuerpo. Su fórmula trabaja para hidratarte, reducir el malestar general y revitalizar tu energía después de una noche de excesos y cruda.",
-  content2: "Ideal para quienes buscan una solución natural y efectiva para aliviar los síntomas de la cruda, HANGOVER actúa rápidamente para devolverle al cuerpo su vitalidad, sin los efectos secundarios de los químicos agresivos."
+  title: "HANGOVER: Tu solución natural para la resaca y el desvelo",
+  content: "HANGOVER es un suplemento 100% natural ideal para quienes sufren de resaca o desvelo. Gracias a ingredientes como la Ashwagandha y el Amla, ayuda a restaurar el equilibrio del cuerpo, reduce la inflamación y mejora la digestión. HANGOVER combate la fatiga, las náuseas y la deshidratación, ayudándote a sentirte revitalizado después de noches de excesos o falta de sueño.",
+  content2: "Este suplemento no solo combate los efectos de la cruda, sino que también mejora la energía y el bienestar general, incluso después de noches sin descanso."
 };
 
 const info2 = {
-  title: "Cómo HANGOVER combate la resaca de manera eficaz",
-  content: "La resaca es una consecuencia del consumo excesivo de alcohol que afecta tanto al sistema digestivo como al cuerpo en general. HANGOVER combate estos efectos gracias a ingredientes como el Draksha y el Gokhru, que ayudan a detoxificar, restaurar el equilibrio de líquidos y reducir la inflamación. Su fórmula también fortalece el sistema inmune, permitiéndote recuperarte más rápido de la resaca.",
-  content2: "Además de aliviar los síntomas inmediatos de la cruda, HANGOVER actúa sobre las causas subyacentes, promoviendo una recuperación más completa y evitando que los efectos de la resaca se prolonguen durante todo el día."
+  title: "HANGOVER: Alivio para el estrés laboral y la ansiedad",
+  content: "El estrés laboral es un problema común que puede generar fatiga mental, ansiedad y agotamiento. HANGOVER, con ingredientes como el Punarnava y la Ashwagandha, es perfecto para aquellos que necesitan relajarse después de un día largo de trabajo. Estos ingredientes adaptógenos ayudan al cuerpo a manejar mejor el estrés, restaurando tu energía y mejorando la concentración.",
+  content2: "Si te sientes sobrecargado en el trabajo, HANGOVER puede ayudarte a restaurar tu equilibrio emocional y mejorar tu bienestar general sin efectos secundarios."
 };
 
 const info3 = {
-  title: "HANGOVER y sus beneficios para tu bienestar general",
-  content: "HANGOVER no solo es eficaz contra los síntomas de la resaca, sino que también tiene beneficios para tu salud general. Su combinación de ingredientes como el Bhrungraj y el Punarnava ayuda a mantener un sistema digestivo saludable, al tiempo que apoya la función hepática y renal. De esta manera, no solo aliviarás los efectos de la cruda, sino que mejorarás tu bienestar a largo plazo.",
-  content2: "Gracias a su enfoque integral, HANGOVER es más que un simple remedio para la resaca. Es un suplemento que ayuda a restaurar el equilibrio de tu cuerpo y promueve una recuperación rápida y efectiva después de la cruda."
+  title: "HANGOVER: Reducción de la ansiedad por ruidos molestos y estrés ambiental",
+  content: "La exposición a ruidos molestos y ambientes estresantes puede generar una gran tensión y malestar. HANGOVER tiene ingredientes como el Gokhru y el Bhrungraj, que ayudan a reducir la ansiedad y el estrés causado por factores ambientales. Estos ingredientes promueven la relajación, mejoran la calidad del sueño y ayudan a mantener un equilibrio emocional.",
+  content2: "Si los ruidos de la ciudad o de tus vecinos te causan incomodidad, HANGOVER es la solución ideal para mantener la calma y el bienestar."
 };
 
 const info4 = {
-  title: "La fórmula natural de HANGOVER",
-  content: "Cada ingrediente de HANGOVER ha sido cuidadosamente seleccionado por sus propiedades ayurvédicas para combatir los efectos negativos del alcohol y la resaca. Ingredientes como el Kasni y el Galo ayudan a desintoxicar y apoyar la función del hígado, mientras que el Ashwagandha y el Gokhru proporcionan una acción revitalizante que te devuelve la energía y vitalidad.",
-  content2: "HANGOVER es la opción perfecta para quienes buscan una solución natural, eficaz y sin efectos secundarios para combatir la resaca."
+  title: "La fórmula natural de HANGOVER para la resaca y el desvelo",
+  content: "Si sufriste de desvelo o resaca, HANGOVER es la solución perfecta. Con ingredientes como el Kasni y el Galo, que desintoxican el hígado, y el Draksha, que restaura los líquidos del cuerpo, HANGOVER te permite recuperarte rápidamente de los efectos de la resaca o la falta de sueño. Este suplemento no solo mejora la digestión, sino que también revitaliza tu cuerpo y reduce la fatiga.",
+  content2: "HANGOVER es ideal para quienes buscan una recuperación rápida y natural después de una noche de fiesta o de desvelo, sin efectos secundarios."
 };
 
 const info5 = {
-  title: "¿Por qué elegir HANGOVER para tu recuperación de la cruda?",
-  content: "HANGOVER es más que un simple suplemento, es tu aliado para una recuperación rápida y saludable después de una noche de diversión. Su fórmula 100% natural te proporciona todos los beneficios de la medicina ayurvédica, permitiendo que tu cuerpo se recupere de la resaca de forma efectiva y sin químicos agresivos.",
-  content2: "Elige HANGOVER si buscas una forma rápida y natural de aliviar los efectos de la cruda, restaurar tu equilibrio y sentirte bien de nuevo."
+  title: "HANGOVER: Combate el estrés, la resaca y el agotamiento mental",
+  content: "HANGOVER no solo alivia los efectos de la resaca, sino que también combate el agotamiento mental y el estrés. Con ingredientes como la Ashwagandha y el Punarnava, HANGOVER es un excelente suplemento para reducir la fatiga y restaurar la energía. Ideal para quienes se sienten agotados después de un día estresante o una noche sin dormir, este suplemento promueve un equilibrio físico y emocional.",
+  content2: "Si sufres de agotamiento debido al estrés o la falta de sueño, HANGOVER puede ser la solución natural que necesitas para mejorar tu bienestar."
 };
 
 const info6 = {
-  title: "HANGOVER: Ideal para mantener tu cuerpo en equilibrio después de la cruda",
-  content: "No solo alivia los síntomas de la resaca, HANGOVER es un suplemento que ayuda a mantener tu cuerpo equilibrado, incluso después de las noches más intensas. Ingredientes como el Bhumiamalki y el Kasni optimizan la función hepática y digestiva, mientras que el Punarnava apoya la desintoxicación de tu cuerpo, dejándote sentir revitalizado y lleno de energía.",
-  content2: "Mantén tu bienestar general con HANGOVER, la opción natural para tu recuperación de la cruda y equilibrio después de la resaca."
+  title: "HANGOVER: Reducción del estrés causado por ruidos y otros factores ambientales",
+  content: "Los ruidos molestos y el estrés ambiental pueden afectar tu salud emocional y física. HANGOVER contiene ingredientes como el Bhrungraj y el Kasni, que no solo apoyan la función hepática, sino que también promueven la relajación y el alivio del estrés. Estos ingredientes naturales pueden ayudarte a mantener la calma y reducir los efectos negativos de factores externos como el ruido y la contaminación.",
+  content2: "HANGOVER es ideal para quienes viven en entornos ruidosos o tienen dificultades para relajarse después de un día difícil."
 };
 
 const info7 = {
-  title: "HANGOVER: Recupérate más rápido, naturalmente después de la cruda",
-  content: "Cuando se trata de recuperarte de la resaca, HANGOVER es la opción ideal para quienes buscan un enfoque natural y efectivo. Con ingredientes como el Gokhru y el Ashwagandha, este suplemento ayuda a reducir la inflamación, mejorar la digestión y restaurar el equilibrio de líquidos, permitiéndote sentirte mejor y más rápido después de la cruda.",
-  content2: "Con HANGOVER, la recuperación de la resaca será más rápida, natural y libre de efectos secundarios, para que puedas continuar con tu día sin interrupciones."
+  title: "HANGOVER: Recuperación natural para el estrés, el desvelo y la resaca",
+  content: "Recuperarse de una noche de fiesta, desvelo o estrés laboral nunca ha sido tan fácil. HANGOVER te ofrece una solución natural para restaurar tu energía, reducir la inflamación y aliviar el malestar general. Con ingredientes como el Gokhru y la Ashwagandha, este suplemento te ayuda a manejar el estrés y a combatir los efectos negativos del alcohol y la falta de sueño.",
+  content2: "Si buscas una forma natural y rápida de recuperar tu energía después de un día agotador o una noche de excesos, HANGOVER es la opción ideal."
 };
+
 
 
 </script>

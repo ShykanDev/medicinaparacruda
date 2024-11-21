@@ -1,25 +1,25 @@
 <template>
-    <div class="selection:bg-white selection:text-rose-500">
-        <header class="fixed left-0 right-0 z-50 flex flex-col text-white shadow-lg bg-rose-500 bg-opacity-90">
+    <div class="selection:bg-white selection:text-cyan-500">
+        <header class="fixed left-0 right-0 z-50 flex flex-col text-white shadow-lg bg-cyan-500 bg-opacity-90">
     <!-- Navegación principal -->
     <nav class="flex items-center justify-between px-4 lg:px-8">
         <!-- Links de navegación (cambiados al lado izquierdo) -->
-        <div class="flex gap-4 text-sm font-medium lg:text-lg lg:gap-6 font-sour-gummy">
-            <RouterLink :class="{ 'italic animate-jump-in': route.name === 'home' }" :to="{ name: 'home' }">
+        <div class="flex gap-4 text-sm font-medium lg:text-lg lg:gap-6 font-funnel-display">
+            <RouterLink :class="{ ' animate-flip-down underline': route.name === 'home' }" :to="{ name: 'home' }">
                 Inicio
             </RouterLink>
-            <RouterLink :class="{ 'italic animate-jump-in': route.name === 'beneficts' }"
+            <RouterLink :class="{ 'italic animate-flip-down underline': route.name === 'beneficts' }"
                 :to="{ name: 'beneficts' }">
                 Beneficios
             </RouterLink>
-            <RouterLink :class="{ 'italic animate-jump-in': route.name === 'ingredients' }"
+            <RouterLink :class="{ 'italic animate-flip-down underline': route.name === 'ingredients' }"
                 :to="{ name: 'ingredients' }">
                 Ingredientes
             </RouterLink>
-            <RouterLink :class="{ 'italic animate-jump-in': route.name === 'faqs' }" :to="{ name: 'faqs' }">
+            <RouterLink :class="{ 'italic animate-flip-down underline': route.name === 'faqs' }" :to="{ name: 'faqs' }">
                 Preguntas
             </RouterLink>
-            <a href="https://www.prasadam.mx/" target="_blank" class="hidden hover:text-rose-300 md:block">
+            <a href="https://www.prasadam.mx/" target="_blank" class="hidden hover:text-cyan-300 md:block">
                 Prasadam
             </a>
         </div>
@@ -30,33 +30,33 @@
 
     <!-- Información de contacto (sin cambios) -->
     <div
-        class="flex-col hidden gap-4 px-4 py-3 text-xs bg-rose-800 bg-opacity-70 lg:flex lg:flex-row lg:items-center lg:justify-evenly lg:text-base">
+        class="flex-col hidden gap-4 px-4 py-3 text-xs bg-cyan-800 bg-opacity-70 lg:flex lg:flex-row lg:items-center lg:justify-evenly lg:text-base">
         <!-- Dirección -->
         <div class="flex items-center gap-2">
-            <v-icon name="md-locationon" class="text-rose-300" scale="1.5" />
+            <v-icon name="md-locationon" class="text-cyan-300" scale="1.5" />
             <a href="https://www.google.com.mx/maps/place/Gutenberg+128,+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+M%C3%A9xico,+CDMX/@19.4322888,-99.1760704,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1f8b32758939b:0xf34fbd07bc47d6dd!8m2!3d19.4322888!4d-99.1760704!16s%2Fg%2F11c4n3lm2g?entry=ttu&g_ep=EgoyMDI0MTEwNS4wIKXMDSoASAFQAw%3D%3D"
-                target="_blank" class="hover:text-rose-400">
+                target="_blank" class="hover:text-cyan-400">
                 Gutenberg #128 Anzures, Miguel Hidalgo, 11590 Ciudad de México
             </a>
         </div>
 
         <!-- Teléfonos -->
         <div class="flex items-center gap-2">
-            <v-icon name="bi-telephone-fill" class="text-rose-300" scale="1.5" />
-            <a href="tel:+525563950178" class="font-bold hover:text-rose-400">
+            <v-icon name="bi-telephone-fill" class="text-cyan-300" scale="1.5" />
+            <a href="tel:+525563950178" class="font-bold hover:text-cyan-400">
                 +52 55 6395 0178
             </a>
-            <v-icon name="bi-telephone-fill" class="text-rose-300" scale="1.5" />
-            <a href="tel:+525563950179" class="font-bold hover:text-rose-400">
+            <v-icon name="bi-telephone-fill" class="text-cyan-300" scale="1.5" />
+            <a href="tel:+525563950179" class="font-bold hover:text-cyan-400">
                 +52 55 6395 0179
             </a>
         </div>
 
         <!-- WhatsApp -->
         <div class="flex items-center gap-2">
-            <v-icon name="co-whatsapp" class="text-rose-300" scale="1.5" />
+            <v-icon name="co-whatsapp" class="text-cyan-300" scale="1.5" />
             <a href="https://wa.me/525562516687" target="_blank" rel="noopener noreferrer"
-                class="font-bold hover:text-rose-400">
+                class="font-bold hover:text-cyan-400">
                 +52 5562516687
             </a>
         </div>
@@ -70,7 +70,7 @@
         <main class="pt-[107px]">
             <slot name="main" />
         </main>
-        <footer class="relative flex flex-col items-center gap-6 p-6 text-white bg-rose-700 font-sour-gummy lg:p-10">
+        <footer class="relative flex flex-col items-center gap-6 p-6 text-white bg-cyan-700 font-sour-gummy lg:p-10">
             <!-- Contact Title -->
             <h2 class="text-2xl font-bold lg:text-4xl">Contacto</h2>
 
