@@ -1,22 +1,22 @@
 <template>
-    <div class="selection:text-white selection:bg-cyan-500">
+    <div class="overflow-hidden selection:text-white selection:bg-cyan-500">
         <header class="fixed left-0 right-0 z-50 flex flex-col text-white shadow-lg bg-cyan-500 bg-opacity-90">
     <!-- Navegación principal -->
     <nav class="flex items-center justify-between px-4 lg:px-8">
         <!-- Links de navegación (cambiados al lado izquierdo) -->
-        <div class="flex gap-2 text-lg font-medium lg:text-lg lg:gap-6 font-funnel-display">
-            <RouterLink :class="{ ' animate-jump underline': route.name === 'home' }" :to="{ name: 'home' }">
+        <div class="flex gap-2 py-[9px] text-lg font-medium md:py-0 lg:text-lg lg:gap-6 font-funnel-display">
+            <RouterLink :class="{ ' animate-jump  border-white border-b-2': route.name === 'home' }" :to="{ name: 'home' }">
                 Inicio
             </RouterLink>
-            <RouterLink :class="{ 'italic animate-jump underline': route.name === 'beneficts' }"
+            <RouterLink :class="{ 'italic animate-jump  border-white border-b-2': route.name === 'beneficts' }"
                 :to="{ name: 'beneficts' }">
                 Beneficios
             </RouterLink>
-            <RouterLink :class="{ 'italic animate-jump underline': route.name === 'ingredients' }"
+            <RouterLink :class="{ 'italic animate-jump  border-white border-b-2': route.name === 'ingredients' }"
                 :to="{ name: 'ingredients' }">
                 Ingredientes
             </RouterLink>
-            <RouterLink :class="{ 'italic animate-jump underline': route.name === 'faqs' }" :to="{ name: 'faqs' }">
+            <RouterLink :class="{ 'italic animate-jump  border-white border-b-2': route.name === 'faqs' }" :to="{ name: 'faqs' }">
                 Preguntas
             </RouterLink>
             <a href="https://www.prasadam.mx/" target="_blank" class="hidden hover:text-cyan-300 md:block">
