@@ -62,7 +62,7 @@
    * Envuelve la palabra "gastritis" en un <strong>.
    */
   const highlightGastritis = (text: string) => {
-    return text.replace(/cruda/gi, '<strong class="text-rose-600">CRUDA</strong>');
+    return text.replace(/resaca/gi, '<strong class="text-rose-600">Resaca</strong>').replace(/desvelo/gi, '<strong class="text-rose-600">Desvelo</strong>').replace(/ruidosos/gi, '<strong class="text-rose-600">Ruidos</strong>').replace(/ruidos/gi, '<strong class="text-rose-600">Ruidos</strong>');
   };
   </script>
   

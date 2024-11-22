@@ -3,32 +3,36 @@
     <MainLayout>
       <template #main>
         <article class="w-full overflow-hidden lg:flex lg:items-center">
-          <div class="flex flex-col items-center px-8 py-16 rounded-tl-lg rounded-br-lg shadow-xl lg:items-start lg:w-1/3 lg:h-screen lg:px-16 bg-gradient-to-r from-cyan-100 to-cyan-50">
-    <h2 class="mb-6 text-4xl font-extrabold leading-tight text-center lg:text-left text-cyan-700 font-poppins animate-fade-down">
-        Solución Natural con HANGOVER para el Alivio de la CRUDA
-        <strong class="px-3 py-1 text-white rounded-md bg-cyan-700">
-            RESACA
-        </strong>
-    </h2>
+          <div
+            class="flex flex-col items-center px-8 py-16 rounded-tl-lg rounded-br-lg shadow-xl lg:items-start lg:w-1/3 lg:h-screen lg:px-16 bg-gradient-to-r from-cyan-100 to-cyan-50">
+            <h2
+              class="mb-6 text-4xl font-extrabold leading-tight text-center lg:text-left text-cyan-700 font-poppins animate-fade-down">
+              Solución Natural con HANGOVER para el Alivio de la 
+              <strong class="px-3 py-1 text-white rounded-md bg-cyan-700">
+                RESACA
+              </strong>
+            </h2>
 
-    <div class="flex flex-col items-center mb-8 lg:flex-row lg:mb-16">
-        <h3 class="mb-4 text-xl font-semibold text-gray-800 lg:text-2xl font-varela lg:text-left lg:mr-8 lg:mb-0">
-            Medicina ayurvédica con origen milenario en la India.
-        </h3>
-        <img class="object-cover rounded-full shadow-lg w-28 h-28 lg:w-40 lg:h-40 lg:ml-6" src="https://i.ibb.co/VqZ4mch/saint-Indian-removebg-preview.png" alt="Icon Image">
-    </div>
+            <div class="flex flex-col items-center mb-8 lg:flex-row lg:mb-16">
+              <h3 class="mb-4 text-xl font-semibold text-gray-800 lg:text-2xl font-varela lg:text-left lg:mr-8 lg:mb-0">
+                Medicina ayurvédica con origen milenario en la India.
+              </h3>
+              <img class="object-cover rounded-full shadow-lg w-28 h-28 lg:w-40 lg:h-40 lg:ml-6"
+                src="https://i.ibb.co/VqZ4mch/saint-Indian-removebg-preview.png" alt="Icon Image">
+            </div>
 
-    <a href="#hangover"
-       class="px-6 py-3 font-bold text-white transition duration-300 ease-in-out transform shadow-lg bg-cyan-700 rounded-xl lg:text-lg lg:px-8 lg:py-4 hover:bg-cyan-800 hover:scale-105 animate-bounce">
-       Descubre Más
-    </a>
-</div>
+            <a href="#hangover"
+              class="px-6 py-3 font-bold text-white transition duration-300 ease-in-out transform shadow-lg bg-cyan-700 rounded-xl lg:text-lg lg:px-8 lg:py-4 hover:bg-cyan-800 hover:scale-105 animate-bounce">
+              Descubre Más
+            </a>
+          </div>
 
 
-          <img src="https://i.ibb.co/tYnbhNc/main-Hangover.jpg" class="lg:w-2/3 animate-fade-up lg:h-screen" alt="Producto CIDNI">
+          <img src="https://i.ibb.co/tYnbhNc/main-Hangover.jpg" class="w-full lg:w-2/3 animate-fade-up lg:h-screen"
+            alt="Producto CIDNI">
         </article>
 
-        <section id="hangover" class="space-y-20 overflow-hidden lg:mt-5">
+        <section id="hangover" class="space-y-20 overflow-hidden lg:py-24 lg:mt-5">
           <CardInfoSm class=""
             img-center="https://storage.googleapis.com/a1aa/image/XfTwSeqzXNn5VkmUGzGVY3L7fVufakBzoMWXoHHUkBIpbcNPB.jpg"
             :title="info1.title" :description="info1.content" :description2="info1.content2" />
@@ -73,8 +77,7 @@
             description="'La cerveza no se compra, se alquila'. Y el coste añadido de alquilarla es la resaca. Eso decía un profesor de biología. Pero, ¿cómo afecta realmente el alcohol nuestro cuerpo y cerebro, y cuánto sabemos de las resacas?"
             href-link="https://www.dw.com/es/qu%C3%A9-causa-la-resaca-y-c%C3%B3mo-superarla/a-67846907"
             img-src="https://static.dw.com/image/67810263_1004.webp" />
-          <NewsCard data-aos="flip-right"
-            title="Todo sobre la resaca"
+          <NewsCard data-aos="flip-right" title="Todo sobre la resaca"
             description="La resaca es un conjunto de síntomas desagradables que pueden aparecer después de tomar demasiado alcohol. Como si sentirse mal no fuera suficiente, las resacas frecuentes también están asociadas con el bajo rendimiento y los conflictos en casa, en la escuela y en el trabajo."
             href-link="https://www.mayoclinic.org/es/diseases-conditions/hangovers/symptoms-causes/syc-20373012"
             img-src="https://storage.googleapis.com/a1aa/image/l8n2GInQa7YqCJalr7QNdqUmedvFBjVG86tAPU2x5BNScT5JA.jpg" />
@@ -108,7 +111,8 @@
                 src="https://medicinaparagastritis.com/assets/mainImg-PTGONR8Z.jpg" alt="">
               <p class="absolute text-xs font-bold text-center text-white bg-cyan-600 top-1 font-poppins md:text-3xl">
                 ¿Tiene usted Gastritis?</p>
-              <p class="absolute text-xs font-bold text-center text-white bg-cyan-600 bottom-1 font-poppins md:text-3xl">
+              <p
+                class="absolute text-xs font-bold text-center text-white bg-cyan-600 bottom-1 font-poppins md:text-3xl">
                 Conozca CIDNI</p>
             </a>
           </div>

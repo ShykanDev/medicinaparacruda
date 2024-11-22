@@ -1,33 +1,37 @@
 <template>
-    <div class="selection:bg-white selection:text-cyan-500">
+    <div class="selection:text-white selection:bg-cyan-500">
         <header class="fixed left-0 right-0 z-50 flex flex-col text-white shadow-lg bg-cyan-500 bg-opacity-90">
     <!-- Navegación principal -->
     <nav class="flex items-center justify-between px-4 lg:px-8">
         <!-- Links de navegación (cambiados al lado izquierdo) -->
-        <div class="flex gap-4 text-sm font-medium lg:text-lg lg:gap-6 font-funnel-display">
-            <RouterLink :class="{ ' animate-flip-down underline': route.name === 'home' }" :to="{ name: 'home' }">
+        <div class="flex gap-2 text-lg font-medium lg:text-lg lg:gap-6 font-funnel-display">
+            <RouterLink :class="{ ' animate-jump underline': route.name === 'home' }" :to="{ name: 'home' }">
                 Inicio
             </RouterLink>
-            <RouterLink :class="{ 'italic animate-flip-down underline': route.name === 'beneficts' }"
+            <RouterLink :class="{ 'italic animate-jump underline': route.name === 'beneficts' }"
                 :to="{ name: 'beneficts' }">
                 Beneficios
             </RouterLink>
-            <RouterLink :class="{ 'italic animate-flip-down underline': route.name === 'ingredients' }"
+            <RouterLink :class="{ 'italic animate-jump underline': route.name === 'ingredients' }"
                 :to="{ name: 'ingredients' }">
                 Ingredientes
             </RouterLink>
-            <RouterLink :class="{ 'italic animate-flip-down underline': route.name === 'faqs' }" :to="{ name: 'faqs' }">
+            <RouterLink :class="{ 'italic animate-jump underline': route.name === 'faqs' }" :to="{ name: 'faqs' }">
                 Preguntas
             </RouterLink>
             <a href="https://www.prasadam.mx/" target="_blank" class="hidden hover:text-cyan-300 md:block">
                 Prasadam
             </a>
         </div>
+        <p class="hidden text-xl font-semibold font-poppins animate-fade-down lg:block">medicinaparacruda.com</p>
 
         <!-- Logo (cambiado a la derecha) -->
-        <img src="https://medicinaparaansiedad.com/img/logo.png" alt="Logo" class="w-12 lg:w-14" />
+        <img src="https://medicinaparaansiedad.com/img/logo.png" alt="Logo" class="hidden w-12 md:block lg:block lg:w-14" />
     </nav>
-
+    <div class="relative flex items-center justify-center w-full py-4 lg:hidden">
+        <p class="text-xl font-semibold font-poppins animate-fade-down">medicinaparacruda.com</p>
+        <img src="../assets/ssl-certificate.png" class="absolute w-11 right-3" alt="">
+    </div>
     <!-- Información de contacto (sin cambios) -->
     <div
         class="flex-col hidden gap-4 px-4 py-3 text-xs bg-cyan-800 bg-opacity-70 lg:flex lg:flex-row lg:items-center lg:justify-evenly lg:text-base">
@@ -59,6 +63,8 @@
                 class="font-bold hover:text-cyan-400">
                 +52 5562516687
             </a>
+        <img src="../assets/ssl-certificate.png" class="absolute w-11 right-3" alt="">
+
         </div>
     </div>
 </header>
